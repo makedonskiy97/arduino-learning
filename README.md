@@ -16,6 +16,13 @@ Each project folder contains the sketch (`.ino`), a breadboard picture (`Circuit
 | 04 | [PWM Fade](stage1-digital-io/04_pwm_fade/) | Smooth LED fading with `analogWrite` (PWM) | <a href="stage1-digital-io/04_pwm_fade/Circuits.png"><img src="stage1-digital-io/04_pwm_fade/Circuits.png" alt="PWM Fade circuit" width="200"></a> | <a href="stage1-digital-io/04_pwm_fade/Schematic.png"><img src="stage1-digital-io/04_pwm_fade/Schematic.png" alt="PWM Fade schematic" width="200"></a> |
 | 05 | [Buzzer Tones](stage1-digital-io/05_buzzer_tones/) | Playing notes, a siren and a melody with `tone` | <a href="stage1-digital-io/05_buzzer_tones/Circuits.png"><img src="stage1-digital-io/05_buzzer_tones/Circuits.png" alt="Buzzer Tones circuit" width="200"></a> | <a href="stage1-digital-io/05_buzzer_tones/Schematic.png"><img src="stage1-digital-io/05_buzzer_tones/Schematic.png" alt="Buzzer Tones schematic" width="200"></a> |
 
+### Stage 2 — Analog Sensors
+
+| # | Project | What it shows | Circuit | Schematic |
+|---|---------|---------------|---------|-----------|
+| 06 | [Pot Brightness](stage2-analog-sensors/06_pot_brightness/) | Reading a potentiometer with `analogRead` and `map` | <a href="stage2-analog-sensors/06_pot_brightness/Circuits.png"><img src="stage2-analog-sensors/06_pot_brightness/Circuits.png" alt="Pot Brightness circuit" width="200"></a> | <a href="stage2-analog-sensors/06_pot_brightness/Schematic.png"><img src="stage2-analog-sensors/06_pot_brightness/Schematic.png" alt="Pot Brightness schematic" width="200"></a> |
+| 07 | [Night Light](stage2-analog-sensors/07_night_light/) | Turning on an LED in the dark with a photoresistor (LDR) | <a href="stage2-analog-sensors/07_night_light/Circuits.png"><img src="stage2-analog-sensors/07_night_light/Circuits.png" alt="Night Light circuit" width="200"></a> | <a href="stage2-analog-sensors/07_night_light/Schematic.png"><img src="stage2-analog-sensors/07_night_light/Schematic.png" alt="Night Light schematic" width="200"></a> |
+
 ## Software
 
 - [Arduino IDE](https://www.arduino.cc/en/software/) — official IDE for writing and uploading sketches
