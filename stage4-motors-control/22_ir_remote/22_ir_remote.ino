@@ -12,6 +12,9 @@ bool led3Status = false;
 void setup()
 {
   Serial.begin(9600);
+  pinMode(pinLed1, OUTPUT);
+  pinMode(pinLed2, OUTPUT);
+  pinMode(pinLed3, OUTPUT);
   IrReceiver.begin(pinIR);
 }
 
@@ -33,6 +36,6 @@ void loop()
         led3Status = !led3Status;
         digitalWrite(pinLed3, led3Status);
       }
+      IrReceiver.resume();
   }
-  IrReceiver.resume();
 }

@@ -23,9 +23,21 @@ Each project folder contains the sketch (`.ino`), a breadboard picture (`Circuit
 | 06 | [Pot Brightness](stage2-analog-sensors/06_pot_brightness/) | Reading a potentiometer with `analogRead` and `map` | <a href="stage2-analog-sensors/06_pot_brightness/Circuits.png"><img src="stage2-analog-sensors/06_pot_brightness/Circuits.png" alt="Pot Brightness circuit" width="200"></a> | <a href="stage2-analog-sensors/06_pot_brightness/Schematic.png"><img src="stage2-analog-sensors/06_pot_brightness/Schematic.png" alt="Pot Brightness schematic" width="200"></a> |
 | 07 | [Night Light](stage2-analog-sensors/07_night_light/) | Turning on an LED in the dark with a photoresistor (LDR) | <a href="stage2-analog-sensors/07_night_light/Circuits.png"><img src="stage2-analog-sensors/07_night_light/Circuits.png" alt="Night Light circuit" width="200"></a> | <a href="stage2-analog-sensors/07_night_light/Schematic.png"><img src="stage2-analog-sensors/07_night_light/Schematic.png" alt="Night Light schematic" width="200"></a> |
 
+### Stage 4 — Motors & Control
+
+| # | Project | What it shows | Circuit | Schematic |
+|---|---------|---------------|---------|-----------|
+| 22 | [IR Remote](stage4-motors-control/22_ir_remote/) | Toggling three LEDs with an IR remote (`IRremote` library) | <a href="stage4-motors-control/22_ir_remote/Circuits.png"><img src="stage4-motors-control/22_ir_remote/Circuits.png" alt="IR Remote circuit" width="200"></a> | <a href="stage4-motors-control/22_ir_remote/Schematic.png"><img src="stage4-motors-control/22_ir_remote/Schematic.png" alt="IR Remote schematic" width="200"></a> |
+
 ## Software
 
 - [Arduino IDE](https://www.arduino.cc/en/software/) — official IDE for writing and uploading sketches
+
+## Libraries
+
+Install via **Sketch → Include Library → Manage Libraries…** in the Arduino IDE:
+
+- [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) — receiving and decoding IR remote signals (used in project 22)
 
 ## Documentation
 
